@@ -19,36 +19,22 @@ Inspired by: ![Brief Case cover art](https://github.com/katiesaund/DresdenColor/
   
 ### Continuous
 `dresden_palette("briefcases", n = 50, type = "continuous")`  
-https://github.com/katiesaund/DresdenColor/blob/master/data/briefcases_continuous.png
-https://github.com/katiesaund/DresdenColor/blob/master/data/foolmoon_continuous.png
-
+![Brief Cases](https://github.com/katiesaund/DresdenColor/blob/master/data/briefcases_continuous.png)  
+  
+`dresden_palette("foolmoon", n = 50, type = "continuous")`  
+![Fool Moon](https://github.com/katiesaund/DresdenColor/blob/master/data/foolmoon_continuous.png)  
+  
 ### Paired  
 `dresden_palette(type = "paired")`  
+![Paired](https://github.com/katiesaund/DresdenColor/blob/master/data/paired.png)  
   
 ## Plot with Brief Case palette  
+`heatmap(matrix(rnorm(n = 100, mean = 0, sd = 20), ncol = 10), col =  dresden_palette("foolmoon", type = "continuous", n = length(unique(temp))))`  
+![Heatmap](https://github.com/katiesaund/DresdenColor/blob/master/data/heatmap.png)  
   
 
 
 Create a palette from any novel title (one word, all lowercase): 
-stormfront  
-foolmoon
-graveperil    
-summerknight  
-deathmasks    
-bloodrites    
-deadbeat        
-provenguilty  
-whitenight    
-smallfavor  
-turncoat 
-changes 
-ghoststory 
-colddays 
-skingame 
-sidejobs  
-briefcases  
-
-Palettes:   
 ![All palettes](https://github.com/katiesaund/DresdenColor/blob/master/data/all_dresden_pallets.png)
 
 Many thanks to Jim Butcher!!! 
