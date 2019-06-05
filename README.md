@@ -28,8 +28,9 @@ Inspired by: ![Brief Case cover art](https://github.com/katiesaund/DresdenColor/
 `dresden_palette(type = "paired")`  
 ![Paired](https://github.com/katiesaund/DresdenColor/blob/master/data/paired.png)  
   
-## Plot with Brief Case palette  
-`heatmap(matrix(rnorm(n = 100, mean = 0, sd = 20), ncol = 10), col =  dresden_palette("foolmoon", type = "continuous", n = length(unique(temp))))`  
+## Plot with Brief Case palette
+`mat <- matrix(rnorm(n = 100, mean = 0, sd = 20), ncol = 10)`  
+`heatmap(mat, col =  dresden_palette("foolmoon", type = "continuous", n = length(unique(mat))))`   
 ![Heatmap](https://github.com/katiesaund/DresdenColor/blob/master/data/heatmap.png)  
   
 
