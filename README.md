@@ -13,8 +13,10 @@ Code adapted from [LaCroixColorR](https://github.com/johannesbjork/LaCroixColoR)
 `dresden_palette("briefcases", type = "discrete)`  
   
 ![Brief Cases](https://github.com/katiesaund/DresdenColor/blob/master/data/briefcases_discrete.png)  
-Inspired by: ![Brief Case cover art](https://github.com/katiesaund/DresdenColor/blob/master/data/Brief-Cases_smaller.jpg)  
   
+Inspired by:  
+![Brief Case cover art](https://github.com/katiesaund/DresdenColor/blob/master/data/Brief-Cases_smaller.jpg)  
+   
 ![Fool Moon](https://github.com/katiesaund/DresdenColor/blob/master/data/foolmoon_discrete.png)  
   
 ### Continuous
@@ -28,10 +30,12 @@ Inspired by: ![Brief Case cover art](https://github.com/katiesaund/DresdenColor/
 `dresden_palette(type = "paired")`  
 ![Paired](https://github.com/katiesaund/DresdenColor/blob/master/data/paired.png)  
   
-## Plot with Brief Case palette
+## Plots with Brief Case palette
 `mat <- matrix(rnorm(n = 100, mean = 0, sd = 20), ncol = 10)`  
 `heatmap(mat, col =  dresden_palette("foolmoon", type = "continuous", n = length(unique(mat))))`   
 ![Heatmap](https://github.com/katiesaund/DresdenColor/blob/master/data/heatmap.png)  
+  
+![Line plot](https://github.com/katiesaund/DresdenColor/blob/master/data/briefcases_palette_words_per_book_by_series.png)  
   
 
 
