@@ -1,11 +1,11 @@
 # DresdenColor
 The Dresden Files inspired color palette for R users. 
 In honor of the recent release of *Brief Cases* by Jim Butcher I created a family of Dresden Files inspired color palettes using the cover art by [Chris McGrath](https://www.christianmcgrath.com/illustration/) from [Orbit Books](https://www.orbitbooks.net/tag/the-dresden-files/).
-Code adapted from [LaCroixColorR](https://github.com/johannesbjork/LaCroixColoR) for Dresden. 
+Code adapted from [LaCroixColorR](https://github.com/johannesbjork/LaCroixColoR) written by Dave Armitage and Johannes Bjork. 
 
 ## Install the package
-install.packages("devtools") 
-devtools::install_github("katiesaund/DresdenColor")
+`install.packages("devtools") 
+devtools::install_github("katiesaund/DresdenColor")`
 
 ## Choose from 3 kinds of palettes: "discrete", "continuous", and "paired"
 ### Discrete
@@ -16,10 +16,10 @@ Inspired by:   ![Brief Case cover art](https://www.orbitbooks.net/wp-content/upl
 
 
 ### Continuous
-dresden_palette("briefcases", n = 50, type = "continuous")
+`dresden_palette("briefcases", n = 50, type = "continuous")`
 
 ### Paired
-dresden_palette(type = "paired")
+`dresden_palette(type = "paired")`
 
 
 ## Plot with Brief Case palette
