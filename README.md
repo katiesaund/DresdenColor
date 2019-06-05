@@ -1,33 +1,48 @@
 # DresdenColor
-The Dresden Files inspired color palette for R users. 
-In honor of the recent release of *Brief Cases* by Jim Butcher I created a family of Dresden Files inspired color palettes using the cover art by [Chris McGrath](https://www.christianmcgrath.com/illustration/) from [Orbit Books](https://www.orbitbooks.net/tag/the-dresden-files/).
-Code adapted from [LaCroixColorR](https://github.com/johannesbjork/LaCroixColoR) written by Dave Armitage and Johannes Bjork. 
-
+The Dresden Files inspired color palette for R users.   
+In honor of the recent release of *Brief Cases* by Jim Butcher I created a family of Dresden Files inspired color palettes using the cover art by [Chris McGrath](https://www.christianmcgrath.com/illustration/) from [Orbit Books](https://www.orbitbooks.net/tag/the-dresden-files/).  
+Code adapted from [LaCroixColorR](https://github.com/johannesbjork/LaCroixColoR) written by Dave Armitage and Johannes Bjork.   
+  
 ## Install the package
-`install.packages("devtools") 
-devtools::install_github("katiesaund/DresdenColor")`
-
-## Choose from 3 kinds of palettes: "discrete", "continuous", and "paired"
-### Discrete
-
-dresden_palette("briefcases", type = "discrete)
+`install.packages("devtools")`  
+`devtools::install_github("katiesaund/DresdenColor")`  
+  
+## Choose from 3 kinds of palettes: "discrete", "continuous", and "paired"  
+### Discrete  
+  
+`dresden_palette("briefcases", type = "discrete)`  
 ![Brief Cases](https://github.com/katiesaund/dresdenfiles/blob/master/palette_images/brief_case_palettes.jpg)  
 Inspired by:   ![Brief Case cover art](https://www.orbitbooks.net/wp-content/uploads/2018/02/Brief-Cases-768x1235.jpg)  
 
 
 ### Continuous
-`dresden_palette("briefcases", n = 50, type = "continuous")`
-
-### Paired
-`dresden_palette(type = "paired")`
-
-
-## Plot with Brief Case palette
-
+`dresden_palette("briefcases", n = 50, type = "continuous")`  
+  
+### Paired  
+`dresden_palette(type = "paired")`  
+  
+## Plot with Brief Case palette  
+  
 
 
 Create a palette from any novel title (one word, all lowercase): 
-
+stormfront  
+foolmoon
+graveperil    
+summerknight  
+deathmasks    
+bloodrites    
+deadbeat        
+provenguilty  
+whitenight    
+smallfavor  
+turncoat 
+changes 
+ghoststory 
+colddays 
+skingame 
+sidejobs  
+briefcases  
 
 Palettes:   
 
