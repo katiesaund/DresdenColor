@@ -10,7 +10,7 @@ Code adapted from [LaCroixColorR](https://github.com/johannesbjork/LaCroixColoR)
 ## Choose from 3 kinds of palettes: "discrete", "continuous", and "paired"  
 ### Discrete  
   
-`dresden_palette("briefcases", type = "discrete)`  
+`dresden_palette("briefcases", type = "discrete")`  
   
 ![Brief Cases](https://github.com/katiesaund/DresdenColor/blob/master/data/briefcases_discrete.png)  
   
